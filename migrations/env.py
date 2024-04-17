@@ -9,8 +9,6 @@ from sqlalchemy import engine_from_config, pool
 
 import src.entity.models
 
-import alembic_autogenerate_enums
-
 from src.entity.db import Base
 
 sys.path.append(os.getcwd())
